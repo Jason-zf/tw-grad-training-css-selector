@@ -1,0 +1,21 @@
+div[title]{
+    color:red;
+    font-size: 50px;
+}
+
+div[title="demo"]{
+    color:yellow;
+    font-size: 100px;
+}
+
+div[title*="demoo"]{
+    color:orange;
+    font-size: 250px;
+}
+
+div[title^="zh-"],div[title^="zh"]{
+    color:blue;
+    font-size:150px;
+}
+
+
